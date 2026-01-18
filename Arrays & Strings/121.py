@@ -8,6 +8,7 @@ class Solution:
                 min_price = prices[i]
             else:
                 max_profit = max(max_profit, prices[i] - min_price)
+    
         return max_profit
 
         # Time: O(n)
